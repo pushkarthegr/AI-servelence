@@ -1,0 +1,44 @@
+body{
+    background-color: blue;
+    height:900px;
+}
+.heading{
+    font-size:25px;
+    margin:0px;
+    width:100%;
+    font-family: 'Reggae One', cursive;
+}
+.btn-success{
+    width:10%;
+    padding:5px;
+    font-size: 18px;
+}
+.btn-danger{
+    width:10%;
+    padding:5px;
+    font-size: 18px;
+}
+#number_of_objects,#status{
+    font-size:18px;
+}
+#footer{
+    width:100%;
+    line-height: 2;
+    font-size: 20px;
+    text-align: center;
+    position:fixed;
+    bottom:0px;
+    background-color: aqua;
+    color:black;
+    font-family: 'Reggae One', cursive;
+    z-index:12;
+}
+canvas{
+    border-radius: 10px;
+    border:3px white solid;
+    margin-top: 200px;
+    z-index:11;
+}
+.form-control{
+    width:50%;
+}
